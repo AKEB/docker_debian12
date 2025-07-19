@@ -21,7 +21,6 @@ RUN curl -sSLo /usr/share/keyrings/sury-php-archive-keyring.gpg \
 RUN apt-get update -y --allow-insecure-repositories \
 	&& apt-get install -y --allow-unauthenticated \
 	iputils-ping \
-	software-properties-commo \
 	wget \
 	nano \
 	git \
