@@ -27,7 +27,10 @@ RUN apt-get update -y --allow-insecure-repositories \
 	sqlite3 \
 	iproute2 \
 	dnsutils \
-	software-properties-common \
+	python3-dev \
+	python3-pip \
+	python3-venv \
+	# software-properties-common \
 	procps \
 	mc \
 	&& rm -rf /var/lib/apt/lists/*
